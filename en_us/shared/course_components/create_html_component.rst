@@ -193,7 +193,8 @@ To review the HTML markup added to  content in the visual editor, select
 **HTML** from the visual editor's toolbar. The HTML source code editor opens.
 
 .. image:: ../../../shared/images/HTML_source_code.png
- :alt: The HTML source code editor for the visual editor in Studio.
+ :alt: The HTML source code editor for the visual editor in Studio, showing
+     HTML with markup.
  :width: 600
 
 You can edit text and the HTML markup in this editor. However, you cannot add
@@ -222,7 +223,7 @@ The raw HTML editor is a text editor. It does not offer a toolbar with
 formatting options.
 
 .. image:: ../../../shared/images/raw_html_editor.png
- :alt: The raw HTML editor.
+ :alt: The raw HTML editor, showing example HTML.
  :width: 600
 
 When you use this editor, you must supply valid HTML. The raw HTML editor does
@@ -243,11 +244,12 @@ the HTML content in your course.
 HTML Component Templates
 *****************************
 
-When you create an HTML component, you select from a list of templates.
+When you create an HTML component, you select one of the following templates.
 
-.. image:: ../../../shared/images/html_templates.png
- :alt: The list of HTML Component templates in the Studio unit page.
- :width: 200
+* Text
+* Announcement
+* IFrame Tool
+* Raw HTML
 
 The raw HTML template uses the raw HTML editor by default. All of the other
 templates use the visual editor by default. You can switch between the editors
@@ -275,22 +277,16 @@ Create an HTML Component
    The HTML component opens in the visual editor.
 
 #. Enter and format your content. You can :ref:`review the HTML markup<Work
-   with HTML code>` if needed.
+   with HTML code>`.
 
-   .. image:: ../../../shared/images/HTMLEditor.png
-    :alt: An image of the HTML component in the visual editor.
-    :width: 600
-
-#. Enter a display name for the component. The display name identifies the
-   component for learners, so it should describe the content effectively. To
-   do so, select **Settings**, and then enter text in the **Display Name**
-   field.
+#. To enter a display name for the component, select **Settings**, and then
+   enter text in the **Display Name** field.
 
    Each HTML template supplies a default display name. Changing the default to
    a unique, descriptive display name can help you and your learners identify
    course content quickly and accurately. If you delete the default display
-   name and do not enter your own identifying name, the platform supplies
-   "html" for you.
+   name and do not enter your own identifying name, the platform shows
+   "Text" as the name of the component.
 
    To return to the visual editor, select **Editor**.
 
@@ -308,12 +304,8 @@ When using the visual editor, you can also perform the following tasks.
 Add a Link in an HTML Component
 ***********************************
 
-When using the visual editor, to add a link to a website, course unit, or file
-in an HTML component, you work with the **Insert link** dialog box.
-
-.. image:: ../../../shared/images/HTML_Insert-EditLink_DBox.png
- :alt: An image of the Insert link dialog box used in an HTML component.
- :width: 400
+When you use the visual editor, to add a link to a website, course unit, or
+file in an HTML component, you work with the **Insert link** dialog box.
 
 For more information, see the following tasks.
 
@@ -332,12 +324,7 @@ Add a Link to a Website
 #. Select the link icon in the toolbar.
 
 #. In the **Insert link** dialog box, enter the URL of the website that is the
-   destination for your link.
-
-   .. image:: ../../../shared/images/HTML_Insert-EditLink_Website.png
-    :alt: An image of of the Insert link dialog box with a link to edx.org and
-     the link text edX Website.
-    :width: 400
+   destination for your link in the **URL** field.
 
 #. If you want the link to open in a new window, select the dropdown arrow
    next to the **Target** field, and then select **New Window**. If not, you
@@ -357,8 +344,9 @@ Add a Link to a Website
 Add a Link to a Course Unit
 =========================================
 
-.. note:: To link to another component, the unit of that destination component
-  must be published for the link to work.
+.. note::
+  When you create a link to another component, the unit of that destination
+  component must be published for the link to work.
 
 #. Obtain the location ID of the unit you want to link to. To do this, open
    the unit page in Studio, and copy the unit ID from the **Location ID**
@@ -374,7 +362,8 @@ Add a Link to a Course Unit
 
 #. Select the link icon in the toolbar.
 
-#. In the **Insert link** dialog box, enter the following in the **URL** field.
+#. In the **Insert link** dialog box, enter a value that resembles the
+   following value in the **URL** field.
 
    ``/jump_to_id/<location ID>``
 
@@ -382,16 +371,11 @@ Add a Link to a Course Unit
    location ID that you copied in step 1, and make sure that you include both
    forward slashes (/).
 
-   .. image:: ../../../shared/images/HTML_Insert-EditLink_CourseUnit.png
-    :alt: An image of the Insert link dialog box with a link to a unit
-     identifier.
-    :width: 400
-
   .. caution::
     Ensure you use ``/jump_to_id/<location ID>`` as the URL value. Do not
     use the URL of the unit that you see in the browser address bar.  If you do
     not use ``/jump_to_id/<location ID>``, the link will be broken if you
-    export then import the course.
+    export and then import the course.
 
 #. If you want the link to open in a new window, select the dropdown arrow
    next to the **Target** field, and then select **New Window**. If not, you
@@ -480,7 +464,7 @@ To add an image to an HTML component, follow these steps.
     You must use the **Studio** URL to add the image, not the **Web** URL. For
     more information, see :ref:`Add Files to a Course`.
 
-#. In the HTML component where you want to add the link, select the image icon
+#. In the HTML component where you want to add the image, select the image icon
    on the toolbar.
 
    The **Add or Edit Image** dialog box opens.
@@ -502,30 +486,82 @@ To add an image to an HTML component, follow these steps.
     information, you do not have to add alternative text. Instead, select the
     **This image is decorative only** checkbox.
 
-#. (optional) To change the image size, locate **Image Dimensions**, and then
-   enter the values that you want for the **Width** and **Height** options.
+#. To add the image to the HTML component, select **Insert Image**.
+
+#. Save the HTML component and test the image.
+
+.. _Format an Image in an HTML Component:
+
+=========================================
+Format an Image in an HTML Component
+=========================================
+
+You have several options for formatting an image in an HTML component.
+
+.. contents::
+ :local:
+ :depth: 1
+
+.. _Align an Image:
+
+Align an Image
+***************
+
+To align your image to the right, the left, or the center, follow these steps.
+
+#. In the HTML component, select the image.
+#. On the toolbar, select the left align, right align, or center icon.
+
+.. _Change the Image Size:
+
+Change the Image Size
+*********************
+
+To change the size of your image, follow these steps.
+
+#. In the HTML component, select the image that you want to edit, and then
+   select the image icon on the toolbar.
+
+#. In the **Add or Edit Image** dialog box, locate **Image Dimensions**, and
+   then enter the values that you want for the **Width** and **Height**
+   options.
 
    .. note::
     To make sure that the image keeps the same proportions when you change the
-    image size, make sure that **Lock proportions** selected, and enter a
+    image size, make sure that **Lock proportions** is selected, and enter a
     number in only the **Width** field or the **Height** field. After you tab
     or click outside that field, the number in the other field changes to a
     value that maintains the image proportions.
 
-.. SP 4/9/18: The following step is commented out because the new version of
-.. this modal does not include the Advanced tab. The Advanced tab may be re-
-.. added in a future version.
 
-.. #. To change the spacing and border for the image, select the **Advanced**
-..    tab, and then add the values that you want for the **Vertical space**,
-..    **Horizontal space**, and **Border** options.
+.. SP 4/9/18: The following sections are commented out because the current
+.. version of this modal does not include the Advanced tab. The Advanced tab
+.. may be re-added in a future version.
 
-..   The values that you enter are automatically added to the **Style** field
-..   in the raw HTML for the HTML component.
 
-#. To add the image to the HTML component, select **Insert Image**.
+.. .. _Add a Border to an Image:
 
-#. Save the HTML component and test the image.
+.. Add a Border to an Image
+.. ************************
+
+.. #. In the HTML component, select the image that you want to edit, and then
+..   select the image icon on the toolbar.
+.. #. In the **Add or Edit Image** dialog box, select **Advanced**.
+.. #. In the **Border** field, enter the width in pixels of the border for
+..    the image.
+
+
+.. .. _Add Margins to an Image:
+
+.. Add Margins to an Image
+.. ************************
+
+.. #. In the HTML component, select the image that you want to edit, and then
+..   select the image icon on the toolbar.
+.. #. In the **Add or Edit Image** dialog box, select **Advanced**.
+.. #. In the **Vertical space** and **Horizontal space** fields, enter the
+..    width in pixels of the margin that you want around the image.
+
 
 .. The following information is inaccurate and may need to be removed.
 
