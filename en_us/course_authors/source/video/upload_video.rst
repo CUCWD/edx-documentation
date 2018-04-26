@@ -185,7 +185,7 @@ The encoding and hosting process assigns the following statuses to video files.
 
   * - Status
     - Description
-  * - *Failed**
+  * - **Failed**
     - Files did not complete processing successfully. If this status appears,
       follow these steps.
 
@@ -205,16 +205,28 @@ The encoding and hosting process assigns the following statuses to video files.
   * - **In Progress**
     - Files are undergoing processing to create additional file formats or
       waiting for successful transfer to the host sites.
-  * - **Invalid Token** indicates a
+  * - **Invalid Token**
     - A configuration problem has occurred. If this status appears, contact edX
       partner support at ``partner-support@edx.org``.
   * - **Ready**
-    - Files are ready to add to your course and for learners to view. When you
-      click the names of these files, a file on one of the external host sites
-      plays. Processing continues at video hosting sites for 24 hours after you
-      upload a file.
+    - The encoding process is complete for your files. When you click the names
+      of these files, a file on one of the external host sites plays. The
+      encoding process might take 24 hours after you upload a file.
 
-      For more information, see :ref:`Add a Video to a Course`.
+      .. note::
+        For all courses, the "Ready" status means that the encoding process is
+        complete. It does not refer to the transcript creation process.
+
+        For courses that have integrated transcripts through 3Play Media or
+        cielo24, the video is not ready for you to add to the course, or for
+        learners to view, until the transcript creation process is complete.
+        When the transcript creation process is complete, the "Ready" status
+        changes to "Transcript Ready".  You can then add the video to the
+        course.
+
+        For courses that do not have integrated transcripts, you must make sure
+        that each video has a transcript. For more information, see :ref:`Non
+        Integrated Transcripts`.
 
   * - **Transcription in Progress**
     - The encoding process has completed, and video transcripts are being
@@ -233,7 +245,9 @@ The encoding and hosting process assigns the following statuses to video files.
       support at ``partner-support@edx.org``.
 
   * - **Transcript Ready**
-    - The transcript creation process has completed.
+    - Both the video encoding and transcript creation processes are complete.
+      The video and transcripts are ready to add to your course and for
+      learners to view.
   * - **Unknown**
     - A configuration problem has occurred. If this status appears, contact edX
       partner support at ``partner-support@edx.org``.

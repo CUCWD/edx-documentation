@@ -3,7 +3,6 @@
 .. toctree::
    :maxdepth: 2
 
-   intro_video
    video_process_overview
    prepare_video
    upload_video

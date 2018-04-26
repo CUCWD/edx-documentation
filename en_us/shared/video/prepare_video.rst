@@ -222,7 +222,8 @@ Transcripts are available to learners in the following ways.
 * Learners can show the transcript file as overlaid closed captions for the
   video by selecting the **CC** icon in the video player’s control bar.
 * You can allow learners to download transcripts so that they can read them
-  offline. For more information, see :ref:`REFERENCE`.
+  offline. For more information, see :ref:`Enable Video and Transcript
+  Downloads`.
 
 =============================
 Obtaining a Video Transcript
