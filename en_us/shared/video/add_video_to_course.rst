@@ -8,9 +8,9 @@
 
 * The video transcript.
 
-===========
-Add a Video
-===========
+==========================
+Add a Video and Transcript
+==========================
 
 To add a video and its transcript, follow these steps.
 

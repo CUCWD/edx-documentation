@@ -7,7 +7,7 @@
    :maxdepth: 2
 
    video_process_overview
-   prepare_video
+   prepare_video/index
    upload_video
    add_video_to_course
    additional_video_options

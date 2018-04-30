@@ -6,6 +6,10 @@ Video Process Overview
 
 The video process is different for courses on edx.org and courses on Edge.
 
+.. contents::
+ :local:
+ :depth: 1
+
 .. _Video Process for Courses on edx org:
 
 ************************************

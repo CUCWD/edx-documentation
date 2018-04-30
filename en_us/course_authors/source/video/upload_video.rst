@@ -12,7 +12,7 @@ course uses :ref:`integrated transcripts <Integrated Transcripts>` or
 
 .. contents::
   :local:
-  :depth: 2
+  :depth: 1
 
 .. _Uploading a Video for an edx org Course:
 
@@ -38,8 +38,10 @@ represents all of the formats and hosting locations for the video.
 * For courses that have :ref:`non-integrated transcripts <Non Integrated
   Transcripts>`, the course team must upload video transcripts manually.
 
-For more information, see :ref:`Automated Video Process for Integrated
-Transcripts` or :ref:`Automated Video Process for Non Integrated Transcripts`.
+For more information, see the following topics.
+
+.. contents::
+  :local:
 
 .. _Automated Video Process for Integrated Transcripts:
 
@@ -69,6 +71,10 @@ the process has the following steps.
    video files to the hosting service.
 #. The process creates transcripts for the video, and then uploads the
    transcripts to the hosting service.
+
+After the automated video process is complete, the course team creates a video
+component and adds the video ID to the video component. For more information,
+see :ref:`Add a Video to a Course`.
 
 .. important::
   As soon as the automated video process has assigned a video ID to the video,
@@ -101,8 +107,13 @@ transcripts, the video processing service completes the following steps.
    all of the files and hosting locations that the automated process creates.
 #. The process encodes video files in different formats.
 #. The process uploads the video files to the hosting service.
-#. The course team must manually obtain and upload video transcripts. For more
-   information, see :ref:`Obtain a Video Transcript`.
+
+While the edX video process is in progress, the course team :ref:`obtains
+transcripts <Obtain a Video Transcript>` from a transcript provider. When the
+edX video process is complete, and the course team has obtained transcripts
+from the transcript provider, the course team creates a video component and
+adds the video ID and transcript to the component. For more information, see
+:ref:`Add a Video to a Course`.
 
 .. important::
   As soon as the automated video process has assigned a video ID to the video,
@@ -232,7 +243,8 @@ The encoding and hosting process assigns the following statuses to video files.
     - The encoding process has completed, and video transcripts are being
       created.
 
-      If a video has this status for more than 48 hours, follow these steps.
+      If a video has this status longer than the time that you specified for
+      the **Transcript Turnaround** time, follow these steps.
 
       #. Verify that the file that you uploaded is in .mp4 or .mov format and
          that the file meets all :ref:`specifications <Video Guidelines>` for
