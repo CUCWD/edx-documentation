@@ -91,15 +91,15 @@ Set the Editor for an HTML Component
 
 .. warning::
  If you work with content in the raw HTML editor, then switch to the visual
- editor, custom HTML can be lost. If you need to create custom HTML, edX
- recommends that you start by using the visual editor, and then switch to the
+ editor, custom HTML can be lost. If you need to create custom HTML, we
+ recommend that you start by using the visual editor, and then switch to the
  raw HTML editor when you are ready to add the custom HTML.
 
 .. _The Visual Editor:
 
-*****************
+=========================
 The Visual Editor
-*****************
+=========================
 
 The visual editor provides a "what you see is what you get" (WYSIWYG) interface
 that allows you to format text by selecting options at the top
@@ -185,9 +185,8 @@ descriptions.
 
 .. _Work with HTML code:
 
-=========================================
 Review HTML Markup in the Visual Editor
-=========================================
+*****************************************
 
 To review the HTML markup added to  content in the visual editor, select
 **HTML** from the visual editor's toolbar. The HTML source code editor opens.
@@ -215,9 +214,9 @@ You can then continue working in the visual editor.
 
 .. _The Raw HTML Editor:
 
-*****************************
+=========================
 The Raw HTML Editor
-*****************************
+=========================
 
 The raw HTML editor is a text editor. It does not offer a toolbar with
 formatting options.
@@ -237,24 +236,6 @@ the HTML content in your course.
  levels 1 and 2 by default. Because tools such as screen readers use heading
  levels to navigate through pages, using heading levels 1 or 2 inside an HTML
  component can interfere with the functionality of these tools.
-
-.. _HTML Component Templates:
-
-*****************************
-HTML Component Templates
-*****************************
-
-When you create an HTML component, you select one of the following templates.
-
-* Text
-* Announcement
-* IFrame Tool
-* Raw HTML
-
-The raw HTML template uses the raw HTML editor by default. All of the other
-templates use the visual editor by default. You can switch between the editors
-in any HTML component. For more information, see :ref:`Set the Editor for an
-HTML Component`.
 
 .. _Create an HTML Component:
 
@@ -292,11 +273,30 @@ Create an HTML Component
 
 #. Select **Save**.
 
-When using the visual editor, you can also perform the following tasks.
+When you use the visual editor, you can also perform the following tasks.
 
 * :ref:`Add a Link in an HTML Component`
 * :ref:`Add an Image to an HTML Component`
 * :ref:`Import LaTeX Code`
+
+
+.. _HTML Component Templates:
+
+=========================
+HTML Component Templates
+=========================
+
+When you create an HTML component, you select one of the following templates.
+
+* Text
+* Announcement
+* IFrame Tool
+* Raw HTML
+
+The raw HTML template uses the raw HTML editor by default. All of the other
+templates use the visual editor by default. You can switch between the editors
+in any HTML component. For more information, see :ref:`Set the Editor for an
+HTML Component`.
 
 .. _Add a Link in an HTML Component:
 
@@ -315,9 +315,9 @@ For more information, see the following tasks.
 
 .. _Add a Link to a Website:
 
-=========================================
+=======================
 Add a Link to a Website
-=========================================
+=======================
 
 #. Select the text that you want to use as the link text.
 
@@ -340,21 +340,25 @@ Add a Link to a Website
 
 .. _Add a Link to a Course Unit:
 
-=========================================
+===========================
 Add a Link to a Course Unit
-=========================================
+===========================
 
 .. note::
   When you create a link to another component, the unit of that destination
   component must be published for the link to work.
 
-#. Obtain the location ID of the unit you want to link to. To do this, open
-   the unit page in Studio, and copy the unit ID from the **Location ID**
-   field under **Unit Location** in the right pane.
+#. Obtain the location ID of the unit you want to link to.
 
-   .. image:: ../../../shared/images/UnitIdentifier.png
-    :alt: An image of the unit page with the location ID circled.
-    :width: 600
+   #. In Studio, open the page for the unit that you want to link to in Studio,
+      and then locate **Unit Location** in the right pane.
+
+   #. Under **Unit Location**, select and copy the alphanumeric text in the
+      **Location ID** field.
+
+      .. image:: ../../../shared/images/UnitIdentifier.png
+       :alt: The **Unit Location** area in the right pane of a unit page, with
+           the unit's location ID circled.
 
 #. Open the HTML component where you want to add the link.
 
@@ -387,9 +391,14 @@ Add a Link to a Course Unit
 
 .. _Add a Link to a File:
 
-=========================================
+====================
 Add a Link to a File
-=========================================
+====================
+
+.. tip::
+ When you add links to files, open the HTML component and the **Files &
+ Uploads** page in separate browser windows. You can then more quickly copy
+ file URLs.
 
 You can add a link in an HTML component to any file that is uploaded for the
 course. For more information about uploading files, see :ref:`Add Files to a
@@ -399,10 +408,6 @@ Course`.
  Do not use this method to add images to HTML components. Instead, use the
  method in :ref:`Add an Image to an HTML Component`.
 
-.. tip::
- When you add links to files, open the HTML component and the **Files &
- Uploads** page in separate browser windows. You can then more quickly copy
- file URLs.
 
 #. On the **Files & Uploads** page, locate the file that you want, and then
    select **Studio** in the **Copy URLs** column.
@@ -414,7 +419,7 @@ Course`.
 #. In the HTML component where you want to add the link, select the text that
    you want to make into the link.
 
-#. Select the link icon in the toolbar.
+#. In the toolbar, select the link icon.
 
 #. In the **Insert link** dialog box, paste the Studio URL for the file in the
    **URL** field. For example, the URL might resemble the following URL.
@@ -433,13 +438,13 @@ Course`.
 
 .. _Add an Image to an HTML Component:
 
-=========================================
+*********************************
 Add an Image to an HTML Component
-=========================================
+*********************************
 
-When you use the visual editor, you can add any image that you have uploaded
-for the course to an HTML component. You can see a preview of the image before
-you add it to the component.
+When you use the visual editor, you can add any image from your computer to an
+HTML component. You can see a preview of the image before you add it to the
+component.
 
 .. note::
  Before you add images, review the following best practices.
@@ -451,42 +456,77 @@ you add it to the component.
  *  To more quickly copy image URLs, open the HTML component and the **Files &
     Uploads** page in separate browser windows.
 
-To add an image to an HTML component, follow these steps.
+To add an image to an HTML component, you can use either of the following
+procedures.
+
+* In the **Add Image** dialog box in the HTML component, drag an image from
+  your computer into the **Drag and Drop** area.
+* Add a reference to an image that you have uploaded to the **Files & Uploads**
+  page.
+
+.. _Drag an Image into the Add Image Dialog Box:
+
+===========================================
+Drag an Image into the Add Image Dialog Box
+===========================================
+
+#. In the HTML component, position the cursor where you want to add an image,
+   and then select the image icon on the toolbar.
+
+#. In the **Add an Image** dialog box, drag an image from your computer into
+   the **Drag and Drop** area, and then select **Next**.
+
+#. In the **Edit Image Settings** dialog box, add an image description.
+
+   * In the **Image Description (Alt Text)** field, enter alternative text for
+     the image. This text becomes the value of the ``alt`` attribute in HTML
+     and is required for your course to be fully accessible. For more
+     information, see :ref:`Best Practices for Describing Images`.
+
+   * If your image is a decorative image that does not convey important
+     information, select the **This image is decorative only** checkbox.
+
+#. (optional) Specify the width and height of your image. For more information,
+   see :ref:`Change the Image Size`.
+
+#. Select **Insert Image**.
+
+#. Save the HTML component and test the image.
+
+
+.. _Add a Reference to an Image File:
+
+================================
+Add a Reference to an Image File
+================================
 
 #. On the **Files & Uploads** page, upload the image that you want to add. For
    more information about uploading images, see :ref:`Add Files to a Course`.
 
-#. After you upload the image, locate the image on the **Files & Uploads**
-   page, and then select **Studio** in the **Copy URLs** column to copy the
-   Studio URL.
+   When you upload an image, the image automatically becomes available in a
+   list that opens when you add an image to an HTML component.
 
-   .. note::
-    You must use the **Studio** URL to add the image, not the **Web** URL. For
-    more information, see :ref:`Add Files to a Course`.
+#. In the HTML component, position the cursor where you want to add an image,
+   and then select the image icon on the toolbar.
 
-#. In the HTML component where you want to add the image, select the image icon
-   on the toolbar.
+#. In the **Add an Image** dialog box, locate the image in the **Select a
+   previously uploaded image** list, and then select **Next**.
 
-   The **Add or Edit Image** dialog box opens.
+#. In the **Edit Image Settings** dialog box, complete one of the following
+   options.
 
-#. In the **Image Source URL** field, paste the Studio URL for the file. For
-   example, the URL might resemble the following URL.
+   * In the **Image Description (Alt Text)** field, enter alternative text for
+     the image. This text becomes the value of the ``alt`` attribute in HTML
+     and is required for your course to be fully accessible. For more
+     information, see :ref:`Best Practices for Describing Images`.
 
-   ``/static/ImageFile.png``
+   * If your image is a decorative image that does not convey important
+     information, select the **This image is decorative only** checkbox.
 
-   Make sure that you include both forward slashes (/).
+#. (optional) Specify the width and height of your image. For more information,
+   see :ref:`Change the Image Size`.
 
-#. In the **Image Description (Alt Text)** field, enter alternative text for
-   the image. This text becomes the value of the ``alt`` attribute in HTML and
-   is required for your course to be fully accessible. For more information,
-   see :ref:`Best Practices for Describing Images`.
-
-   .. note::
-    If your image is a decorative image that does not convey important
-    information, you do not have to add alternative text. Instead, select the
-    **This image is decorative only** checkbox.
-
-#. To add the image to the HTML component, select **Insert Image**.
+#. Select **Insert Image**.
 
 #. Save the HTML component and test the image.
 
@@ -522,7 +562,7 @@ To change the size of your image, follow these steps.
 #. In the HTML component, select the image that you want to edit, and then
    select the image icon on the toolbar.
 
-#. In the **Add or Edit Image** dialog box, locate **Image Dimensions**, and
+#. In the **Edit Image Settings** dialog box, locate **Image Dimensions**, and
    then enter the values that you want for the **Width** and **Height**
    options.
 
@@ -577,7 +617,6 @@ following image.
 
 .. image:: ../../../shared/images/HTML_LaTeX_LMS.png
  :alt: Math formulas created with LaTeX in an HTML component.
- :width: 500
 
 .. warning::
  The LaTeX processor that Studio uses to convert LaTeX code to XML is a third
