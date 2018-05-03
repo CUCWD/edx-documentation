@@ -1,3 +1,26 @@
+.. _Add a Video to a Course:
+
+##########################
+Adding a Video to a Course
+##########################
+
+.. only:: Partners
+
+  To make a video visible in your course, you create a video component in a
+  unit in Studio, and then you add information for the video to the video
+  component. The information is different for courses on edx.org and courses on
+  Edge.
+
+  .. contents::
+   :local:
+   :depth: 1
+
+.. only:: Open_edX
+
+  To make a video visible in your course, you create a video component in a
+  unit in Studio, and then you add the following information for the video to
+  the video component.
+
 * A display name for the component.
 * The video location.
 

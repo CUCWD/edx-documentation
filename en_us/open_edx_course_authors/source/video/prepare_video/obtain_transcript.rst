@@ -1,1 +1,2 @@
-.. include:: ../../../../shared/video/obtain_transcript.rst
+.. include:: ../../../../shared/video/prepare_video/obtain_transcript.rst
+

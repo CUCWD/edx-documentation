@@ -21,9 +21,11 @@
    * The course team :ref:`contracts with a third party transcript
      provider<Obtain a Video Transcript>`, such as 3Play Media or cielo24.
 
-#. The course team :ref:`uploads videos <Upload a Video>` to the **Video
-   Uploads** page.
+#. The course team :ref:`uploads the videos <REFERENCE>` to the third party
+   hosting site.
 
-#. The course team :ref:`creates video components <Add a Video to an edx org
-   Course>` and adds the video and transcript information to the components.
+#. The course team **uploads transcripts to the Files & Uploads page**. (CHECK:
+   NEED TO UPLOAD TRANSCRIPTS TO F&U OR ADD TO VC DIRECTLY?)
 
+#. The course team :ref:`creates video components <Add a Video to a Course>`
+   and adds the video and transcript information to the components.

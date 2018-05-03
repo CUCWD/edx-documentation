@@ -35,6 +35,7 @@ General Guidelines
 
 .. only:: Partners
 
+  .. note::
     For courses on edx.org, your videos must use the .mp4 or .mov format.
 
     For courses on Edge, we also strongly recommend that you create additional
@@ -48,10 +49,10 @@ General Guidelines
 
 .. only:: Open_edX
 
-    Additionally, we strongly recommend that you create copies of your videos
-    in the following resolutions. When multiple resolutions are available, the
-    video player automatically plays the best video for each learner's device
-    and internet connection.
+  * We strongly recommend that you create copies of your videos in the
+    following resolutions. When multiple resolutions are available, the video
+    player automatically plays the best video for each learner's device and
+    internet connection.
 
     * 1080p
     * 720p
@@ -63,19 +64,9 @@ General Guidelines
 File Naming Conventions
 ***********************
 
-When you name your video files, we recommend that you follow these guidelines.
-
-* Make sure that each video file in your organization has a unique name.
-* Include only alphanumeric characters and underscores in video file names.
-* Make sure that the video file name contains no special characters, such as ç,
-  å, or ó.
-* Do not use periods except for the period before the file name extension (for
-  example, .mp4).
-
-Additionally, to facilitate identifying and tracking video files, we strongly
-recommend that organizations define and use a naming convention for all video
-files in all courses. At a minimum, your naming convention should include these
-elements.
+To facilitate identifying and tracking video files, we strongly recommend that
+organizations define and use a naming convention for all video files in all
+courses. At a minimum, your naming convention should include these elements.
 
 * A course identifier.
 * The year of the initial course run.
@@ -92,6 +83,16 @@ This convention might yield the following file name.
 ::
 
   SPU27_2015_S1_SS3_U4_v2.mp4
+
+Additionally, when you name your video files, we recommend that you follow
+these guidelines.
+
+* Make sure that each video file in your organization has a unique name.
+* Include only alphanumeric characters and underscores in video file names.
+* Make sure that the video file name contains no special characters, such as ç,
+  å, or ó.
+* Do not use periods except for the period before the file name extension (for
+  example, .mp4).
 
 .. _Video Compression Specifications:
 

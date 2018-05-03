@@ -18,9 +18,9 @@ Transcripts are available to learners in the following ways.
   transcript to jump to the point in the video where that line is spoken.
 * Learners can show the transcript file as overlaid closed captions for the
   video by selecting the **CC** icon in the video player’s control bar.
-* You can allow learners to download transcripts so that they can read them
-  offline. For more information, see :ref:`Enable Video and Transcript
-  Downloads`.
+* You can allow learners to download transcripts so that learners can read the
+  transcripts offline. For more information, see :ref:`Enable Video and
+  Transcript Downloads`.
 
 ****************************
 Obtaining a Video Transcript
@@ -28,10 +28,12 @@ Obtaining a Video Transcript
 
 .. only:: Partners
 
-  For courses on edx.org, transcripts must be in the SubRip Text (.srt) format.
+  .. note::
+    For courses on edx.org, transcripts must be in the SubRip Text (.srt)
+    format.
 
-  For courses on Edge, we strongly recommend that you obtain timed transcripts
-  in the .srt format.
+    For courses on Edge, we strongly recommend that you obtain timed
+    transcripts in the .srt format.
 
   To obtain a transcript in .srt format, you can work with a transcript
   provider such as `3Play Media`_ or `cielo24`_. 3Play Media and cielo24 offer
@@ -39,13 +41,13 @@ Obtaining a Video Transcript
 
   Additionally, if your course is on edx.org and you work with 3Play Media or
   cielo24, you can use integrated video transcripts in Studio to obtain
-  transcripts and associate them with your videos automatically. For more
-  information, see :ref:`Integrated Transcripts`.
+  transcripts and associate the transcripts with your videos automatically. For
+  more information, see :ref:`Integrated Transcripts`.
 
   If your course is on Edge, or you do not work with 3Play Media or cielo24,
   you must obtain transcripts from a third party transcript provider and
-  associate them with your videos manually. For more information, see :ref:`Non
-  Integrated Transcripts`.
+  associate the transcripts with your videos manually. For more information,
+  see :ref:`Non Integrated Transcripts`.
 
   .. note::
     If you use a third party transcript provider other than 3Play Media or
@@ -59,8 +61,7 @@ Obtaining a Video Transcript
 
   When you use integrated transcripts, you upload your videos in Studio. The
   edX processing service then creates transcripts, uploads the transcripts, and
-  links the transcripts with your videos automatically. For more information,
-  see :ref:`Automated Video Process for Integrated Transcripts`.
+  links the transcripts with your videos automatically.
 
   To use integrated transcripts, you must make sure that settings are correct
   for both your organization and for your individual course.
@@ -133,6 +134,11 @@ Obtaining a Video Transcript
 
   The following settings are specific to each individual course. You can change
   these settings without contacting your organization's administrator.
+
+  .. note::
+    If you change these settings, the changes take effect for all videos that
+    you upload after you make the changes. You cannot change a setting for a
+    specific video.
 
   To add or change course settings, follow these steps.
 

@@ -16,6 +16,10 @@ that site. Keep the following guidelines in mind.
   URL for that copy of the video. If you upload copies of your video on more
   than one hosting site, make sure you have the URL for each video location.
 
+* If you have copies of a video in multiple resolutions, you must follow the
+  instructions for your hosting site to upload each copy. For more information,
+  see :ref:`Video Guidelines`.
+
 For more information about hosting your videos, see :ref:`Set Up a Hosting
 Service`.
 
