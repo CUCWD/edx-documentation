@@ -95,7 +95,7 @@ def set_audience(category, audience):
     """Used from specific conf.py files to set the audience for a book."""
     html_context['help_url'] = HELP_LINKS.get((category, audience))
 
-FEEDBACK_FORM_FMT = "https://docs.google.com/forms/d/1T5QGnYb_QnQoMO7T_eatq02miPTY40WVe3cgGphNAdY/viewform?entry.1952574704&entry.241692674={pageid}"
+FEEDBACK_FORM_FMT = "https://docs.google.com/forms/d/e/1FAIpQLSe6_MOxFaa_wDt7PObo4-v9UZ7-mEhNF7h6lIPSQqaZ1ykc4Q/viewform?entry.1699859017&entry.147198744={pageid}"
 
 def feedback_form_url(project, page):
     """Create a URL for feedback on a particular page in a project."""
