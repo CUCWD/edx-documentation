@@ -28,4 +28,5 @@ Open edX Learner's Guide: Ginkgo Release
    SFD_notes
    SFD_wiki
    SFD_licensing
+   sfd_troubleshooting/index
    front_matter/index
