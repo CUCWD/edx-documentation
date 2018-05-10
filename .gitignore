@@ -25,6 +25,7 @@
 build
 \#*\#
 .env/
+venv/
 autodeploy.properties
 .ws_migrations_complete
 

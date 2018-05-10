@@ -28,4 +28,5 @@ Open edX Learner's Guide
    SFD_notes
    SFD_wiki
    SFD_licensing
+   sfd_troubleshooting/index
    front_matter/index
