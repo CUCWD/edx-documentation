@@ -2,6 +2,13 @@
 
 .. Include this file in any file that includes a non-doc link.
 
+.. EducateWorkforce Links
+
+.. _support@educateworkforce.com: support@educateworkforce.com
+
+.. _educateworkforce.com: educateworkforce.com
+
+
 .. EdX Links
 
 .. _Math Formatting in Course Discussions: https://courses.edx.org/courses/course-v1:edX+DemoX.1+2T2017/wiki/edx/adding-math-expressions-course-discussion-post/
