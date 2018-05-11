@@ -31,7 +31,7 @@ After creating your EducateWorkforce account an activation email will be sent to
 
 Here is a sample activation email.
 
-.. image:: ../../../shared/troubleshooting/Images/SFD_Activation_Email.png
+.. image:: ../../../shared/students/sfd_troubleshooting/Images/Activation_Email.png
     :width: 700
     :alt: A sample activation email.
 
@@ -49,7 +49,7 @@ by entering in alternative required fields (specifically *Email* field).
    Alternatively you could try the :ref:`Password Reset<SFD Password Reset>` procedure to gain access to existing account
    instead of registering a new account.
 
-.. image:: ../../../shared/troubleshooting/Images/SFD_Account_Exists.png
+.. image:: ../../../shared/students/sfd_troubleshooting/Images/Account_Exists.png
     :width: 700
     :alt: This error message occurs when a user tries to register with similar credentials as an existing account.
 
