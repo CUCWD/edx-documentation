@@ -41,7 +41,7 @@ Invalid first-party *Email* or *Password* fields will product this error message
 credentials to gain access to the :ref:`Dashboard<SFD Learner Dashboard>` page.  Should that not work please follow the
 :ref:`Password Reset<SFD Password Reset>` instructions before contacting `support@educateworkforce.com`_.
 
-.. image:: ../../../shared/troubleshooting/Images/SFD_Login_Invalid.png
+.. image:: ../../../shared/students/sfd_troubleshooting/Images/Login_Invalid.png
     :width: 700
     :alt: Message displayed when a user tries to login with invalid first-party credentials.
 
@@ -52,7 +52,7 @@ processed.
    The account lock duration is currently set to fifteen minutes.  If you cannot wait until that period expires, please
    contact `support@educateworkforce.com`_.
 
-.. image:: ../../../shared/troubleshooting/Images/SFD_Login_Invalid_Account_Locked.png
+.. image:: ../../../shared/students/sfd_troubleshooting/Images/Login_Invalid_Account_Locked.png
     :width: 700
     :alt: Message displayed when a user tries to login with valid email but invalid password more than three attempts.
 
@@ -75,13 +75,13 @@ This image shows the *Password Assistance* page where the user can reset their p
    If you still cannot perform the password reset process, then contact `support@educateworkforce.com`_ to resolve this
    discrepancy with your account.
 
-.. image:: ../../../shared/troubleshooting/Images/SFD_Password_Reset_Email_Invalid.png
+.. image:: ../../../shared/students/sfd_troubleshooting/Images/Password_Reset_Email_Invalid.png
     :width: 700
     :alt: Message displayed when a user tries to reset account's password but put an invalid email.
 
 Here is a sample password reset email message.
 
-.. image:: ../../../shared/troubleshooting/Images/SFD_Password_Reset_Email.png
+.. image:: ../../../shared/students/sfd_troubleshooting/Images/Password_Reset_Email.png
     :width: 700
     :alt: Message displayed when a user resets their EducateWorkforce password.
 
@@ -96,7 +96,7 @@ accounts have the ability to link to an existing third-party provider account.  
 that your first-party account is not correctly setup (linked) to your existing third-party
 account.
 
-.. image:: ../../../shared/troubleshooting/Images/SFD_Provider_Login_Denied.png
+.. image:: ../../../shared/students/sfd_troubleshooting/Images/Provider_Login_Denied.png
     :width: 700
     :alt: Message displayed when a user logs into a third-party provider but doesn't have this provider linked to their
           EducateWorkforce first-party account.
