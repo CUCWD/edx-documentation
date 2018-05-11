@@ -9,6 +9,7 @@ Open edX Learner's Guide
    :maxdepth: 2
 
    SFD_introduction
+   SFD_update_acct_settings
    SFD_dashboard_profile_SectionHead
    OpenSFD_enrolling
    SFD_prerequisites
