@@ -4,6 +4,10 @@
 Building and Running an Open edX Course: Ginkgo Release
 #########################################################
 
+The following EducateWorkforce documentation is provided by the Open edX team from `docs.edx.org`_. The Open edX platform
+is the main web application that EducateWorkforce uses to serve course content. Should you have any questions or concerns
+about this documentation please use the feedback document at the top of this document to submit a request to the support team.
+
 .. toctree::
    :numbered:
    :maxdepth: 2
@@ -26,3 +30,5 @@ Building and Running an Open edX Course: Ginkgo Release
    student_progress/index
    rerun_course/index
    glossary
+
+.. include:: ../../links/links.rst

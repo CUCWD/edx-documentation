@@ -4,6 +4,10 @@
 Open edX Learner's Guide: Ginkgo Release
 ##########################################
 
+The following EducateWorkforce documentation is provided by the Open edX team from `docs.edx.org`_. The Open edX platform
+is the main web application that EducateWorkforce uses to serve course content. Should you have any questions or concerns
+about this documentation please use the feedback document at the top of this document to submit a request to the support team.
+
 .. toctree::
    :numbered:
    :maxdepth: 2
@@ -31,3 +35,5 @@ Open edX Learner's Guide: Ginkgo Release
    SFD_licensing
    sfd_troubleshooting/index
    front_matter/index
+
+.. include:: ../../links/links.rst
