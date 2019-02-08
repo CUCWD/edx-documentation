@@ -13,3 +13,5 @@
 .. each of the Upgrade to Verified or View XSeries Details options that
 .. appear on this page. (:jira:`ECOM-4269`, :jira:`ECOM-4270`)
 .. 
+
+added release notes for studio -> Hawthrone EW 387

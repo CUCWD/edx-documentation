@@ -1,4 +1,4 @@
-.. Add release notes for the lms audience in RST format here.
+.. Add release notes for the website audience in RST format here.
 .. The edX documentation team will include this file in the index 
 .. file for the upcoming release. If you add more than one note, format the
 .. notes as a bulleted list by preceding each note with an asterisk.
@@ -14,4 +14,4 @@
 .. appear on this page. (:jira:`ECOM-4269`, :jira:`ECOM-4270`)
 .. 
 
-lms documentation for Hawthrone EW 387
+added release notes for website Hawthrone. EW 387
